@@ -1,11 +1,11 @@
-# My YouTube Channel Data Analysis 🚀
+# YouTube Channel Data Analysis 🚀
 
-## I take performance metrics from my personal YouTube channel, and dive into it! 📝
+## Workign with a Kaggle Dataset on YouTube Channel Analytics! 📝
 
 ## Tools used 🔨
 - Python
 - Pandas
-- Faker
+- SQLite3
 
 ## Installation
 1. cd Tracker-Real
