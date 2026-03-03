@@ -1,3 +1,6 @@
+#THE GIANT JSON RESEMBLING BLOB OF DATA IM PRACTICING WITH
+import pandas as pd
+
 data = {
   "organization": {
     "id": "ORG-4421",
@@ -212,3 +215,21 @@ data = {
     }
   ]
 }
+
+keys = data.keys()
+for i in keys:
+    #print(i)
+    pass
+li = list(data.values())
+print(li[0].get('id'))
+print(li[0])
+print(li[0].keys())
+
+
+
+sample = {"a":1, "b":2, "c":[1, 2, 3]}
+df = pd.DataFrame([sample])
+#print(df.head())
+
+df2 = pd.DataFrame([data])
+#print(df2.head())

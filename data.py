@@ -4,7 +4,7 @@ import sqlite3
 from googleapiclient.discovery import build
 import os
 from dotenv import load_dotenv, dotenv_values
-
+#USING THE YOUTUBE PUBLIC DATA API
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")

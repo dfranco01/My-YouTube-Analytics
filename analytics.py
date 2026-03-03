@@ -6,6 +6,8 @@ from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 import pandas as pd
 
+#WORKING WITH THE YOUTUBE ANALYTICS API
+
 SCOPES = ['https://www.googleapis.com/auth/yt-analytics.readonly']
 
 API_SERVICE_NAME = 'youtubeAnalytics'
