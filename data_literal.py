@@ -215,15 +215,11 @@ data = {
     }
   ]
 }
-
-keys = data.keys()
-for i in keys:
-    #print(i)
-    pass
+#PRACTICE WORKING WITH DEEPLY NESTED DICTIONAIRES BY CHAINING INDEXING AND GET() METHOD
 li = list(data.values())
-print(li[0].get('id'))
-print(li[0])
-print(li[0].keys())
+print(len(li))
+print(li[1][0].get('milestones')[0].get('id'))
+print(li[0].get('departments')[1].get('employees')[0].get('projects')[1].get('projectId'))
 
 
 
